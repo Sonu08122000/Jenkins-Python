@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'python --version'
+        sh 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe --version'
       }
     }
     stage('main') {
       steps {
-        sh 'python main.py'
+        sh 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe main.py'
       }
     }
   }
