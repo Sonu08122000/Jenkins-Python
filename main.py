@@ -1,5 +1,6 @@
 def greet_with_ascii():
     print("HELLO!")
+    print("Hey.......")
     print("""
    _   _   _   _   _   _   _   _   _  
   / \ / \ / \ / \ / \ / \ / \ / \ / \ 
